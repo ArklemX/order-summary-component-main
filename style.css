@@ -18,6 +18,9 @@ body{
     font-family: var(--font);
     font-size: 1rem;
     margin: 0;
+    background-image: url(./images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat, repeat;
+    background-size: 100%;
 }
 
 img{
@@ -49,7 +52,7 @@ a{
     align-items: center;
     justify-content: space-around;
     padding: 15px 20px;
-    margin: 20px;
+    margin: 35px;
     border-radius: 10px;
 }
 
@@ -68,9 +71,9 @@ a{
 .card{
     background-color: white;
   margin: 0 auto;
-  width: 350px;
+  width: 380px;
   border-radius: 20px;
-  height: 550px;
+  height: 610px;
   box-shadow: 1px 5px 20px grey;
 
   /* center on the screen */
@@ -82,9 +85,8 @@ a{
 }
 
 .btn {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 5px auto;
     padding: 15px;
     border-radius: 15px;
     border: 0 ;
@@ -113,6 +115,18 @@ a{
 
 .btn-cancel:hover{
     color: var(--dark-blue);
+}
+
+@media screen and (max-width : 375px) {
+    body{
+        background-image: url(./images/pattern-background-mobile.svg) ;
+    }
+
+    .card{
+      width: 320px;
+      height: 580px;
+    }
+    
 }
 
 .attribution { 
