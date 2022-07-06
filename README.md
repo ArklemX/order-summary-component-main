@@ -21,7 +21,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [My Solution, Right Here](https://github.com/ArklemX/order-summary-component-main/)
-- Live Site URL: [The Solution, in LIVE](https://github.com/ArklemX/order-summary-component-main/solution.html)
+- Live Site URL: [The Solution, in LIVE](https://arklemx.github.io/order-summary-component-main/solution.html)
 
 ## My process
 
