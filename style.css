@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root{
+    /* PRIMARY COLORS*/
+    --pale-blue : hsl(225, 100%, 94%);
+    --bright-blue : hsl(245, 75%, 52%);
+
+    /* NEUTRAL COLORS */
+    --very-pale-blue : hsl(225, 100%, 98%);
+    --desaturated-blue : hsl(224, 23%, 55%);
+    --dark-blue : hsl(223, 47%, 23%);
+
+    --font : 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: var(--pale-blue);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1rem;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.text{
+    margin: 0 20px;
+}
+
+p{
+    font-weight: 500;
+    color: var(--desaturated-blue);
+    line-height: 1.5rem;
+}
+
+a{
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.pricing{
+    background-color: var(--very-pale-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.great-text{
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.price{
+    color: var(--desaturated-blue);
+}
+.icon-music{
+    width: 50px;
+}
+
+.card{
+    background-color: white;
+  margin: 0 auto;
+  width: 350px;
+  border-radius: 20px;
+  height: 550px;
+
+  /* center on the screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0 ;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn-proceed{
+    background-color: var(--bright-blue);
+    color: white;
+    box-shadow: 3px 5px 20px grey;
+}
+
+.btn-proceed:hover{
+    background-color: var(--desaturated-blue);
+}
+
+.btn-cancel{
+    background-color: transparent;
+    color: var(--desaturated-blue);
+}
+
+.btn-cancel:hover{
+    color: var(--dark-blue);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    position: relative;
+    text-align: center;
+    top: 0;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
